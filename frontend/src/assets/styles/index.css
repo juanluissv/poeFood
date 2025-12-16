@@ -9,6 +9,18 @@
   letter-spacing: -1.77px;
   line-height: 1;
   width: 171px;
+  text-decoration: none;
+}
+
+.header-logo2 {
+  text-decoration: none;
+}
+.shoppingImg{
+  margin-left: 35%;
+}
+
+.shoppingTittle{
+  margin-left: 3%;
 }
 
 .header-search-container {
@@ -803,6 +815,14 @@ margin-left: 5%;
   font-weight: 400;
   line-height: 1.2;
 }
+
+
+
+.productImage{
+ margin-left: 20%; 
+}
+
+
 
 /* Utility Classes */
 .cursor-pointer {

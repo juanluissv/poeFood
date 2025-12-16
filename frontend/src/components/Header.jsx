@@ -32,9 +32,12 @@ const Header = () => {
     <header className="bg-white w-100">
     <div className="container-fluid px-4 py-3">
       <nav className="d-flex align-items-center justify-content-between flex-wrap gap-3">
+        <Link to={`/`} className='header-logo2'>
         <h1 className="header-logo fw-bold  m-0 px-3 py-2">
-          Poe Food
+        <span className='header-logo2 '>Poe Food</span>
         </h1>
+        </Link>
+        
 
         <div className="header-search-container flex-grow-1 mx-4 rounded-pill px-3 py-2">
           <div className="d-flex align-items-center gap-3">
@@ -59,10 +62,12 @@ const Header = () => {
             <img src="https://cdn.builder.io/api/v1/image/assets/a26849b100204920aa1d93a801543256/273384e186b35602765294c964574b9d50b18963?placeholderIfAbsent=true" alt="heart" width="24" height="24" />
           </button>
           <button className="header-action-button btn btn-outline-secondary rounded-circle p-2 d-flex align-items-center justify-content-center position-relative">
-            <span className="header-cart-badge position-absolute top-0 start-100 translate-middle badge rounded-pill text-white fw-bold d-flex align-items-center justify-content-center">
+            {/* <span className="header-cart-badge position-absolute top-0 start-100 translate-middle badge rounded-pill text-white fw-bold d-flex align-items-center justify-content-center">
               4
-            </span>
+            </span> */}
+            <Link to={`/cart`} className=''>
             <img src="https://cdn0.iconfinder.com/data/icons/minimal-set-seven/32/minimal-49-512.png" alt="heart" width="24" height="24" />
+            </Link>
           </button>
         </div>
       </nav>

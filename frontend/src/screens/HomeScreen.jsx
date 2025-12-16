@@ -33,7 +33,7 @@ const HomeScreen = () => {
       </Message>
     ) : (
       <>
-       <Hero />
+      <Hero />
       <Row>
         <Features />
         <FeaturedProducts />       
